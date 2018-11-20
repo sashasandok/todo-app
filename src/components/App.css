@@ -2,32 +2,19 @@
   outline: none;
 }
 
-.app {
+.todo-block {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 30px;
   height: 100vh;
   width: 100%;
 }
 
-.app header {
+.todo-block header {
   text-align: center;
   margin-bottom: 30px;
   font-size: 35px;
-}
-
-.btn {
-  padding: 5px;
-  border-radius: 4px;
-  margin-left: 10px;
-  font-size: 15px;
-  width: 90px;
-}
-
-.btn:hover {
-  box-shadow: 2px 2px 2px gray;
 }
 
 .todo-list {
@@ -51,18 +38,4 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e2e2e2;
-}
-
-.todo-text {
-  word-wrap: break-word;
-  width: 300px;
-}
-
-.input {
-  min-width: 400px;
-  padding: 20px 0px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  border: 1px solid #e3e3e3;
-  text-indent: 23px;
 }

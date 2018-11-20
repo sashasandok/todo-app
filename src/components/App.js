@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './App.css'
 
-import Todo from './Todo'
-import TodoForm from './TodoForm'
+import Todo from './Todo/Todo'
+import TodoForm from './TodoForm/TodoForm'
 
 const App = () => {
   const [todos, setTodos] = useState([])
@@ -25,7 +25,7 @@ const App = () => {
   }
 
   return (
-    <div className="app">
+    <div className="todo-block">
       <header>Todo app with React Hooks</header>
       <TodoForm addTodo={addTodo} />
       <div className="todo-list">

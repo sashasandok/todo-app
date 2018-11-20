@@ -1,4 +1,8 @@
+// react
 import React from 'react'
+
+// styles
+import './Todo.css'
 
 function Todo({ todo, id, index, completeTodo, removeTodo }) {
   return (
