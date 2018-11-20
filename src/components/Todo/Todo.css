@@ -7,10 +7,24 @@
 }
 
 .btn:hover {
-  box-shadow: 2px 2px 2px gray;
+  box-shadow: 2px 2px 2px black;
 }
 
 .todo-text {
   word-wrap: break-word;
   width: 300px;
+  font-size: 19px;
+}
+
+.todo {
+  min-width: 50%;
+  height: 30px;
+  padding: 20px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: transparent;
 }

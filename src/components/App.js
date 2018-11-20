@@ -28,17 +28,21 @@ const App = () => {
     <div className="todo-block">
       <header>Todo app with React Hooks</header>
       <TodoForm addTodo={addTodo} />
-      <div className="todo-list">
-        {todos.map((todo, index) => (
-          <Todo
-            key={index}
-            index={index}
-            todo={todo}
-            completeTodo={completeTodo}
-            removeTodo={removeTodo}
-          />
-        ))}
-      </div>
+      {todos.length === 0 ? (
+        <p>You have no any 'todo' at the time :(</p>
+      ) : (
+        <div className="todo-list">
+          {todos.map((todo, index) => (
+            <Todo
+              key={index}
+              index={index}
+              todo={todo}
+              completeTodo={completeTodo}
+              removeTodo={removeTodo}
+            />
+          ))}
+        </div>
+      )}
     </div>
   )
 }

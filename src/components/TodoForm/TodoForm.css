@@ -6,4 +6,10 @@
   border: 1px solid #e3e3e3;
   text-indent: 23px;
   font-size: 23px;
+  background-color: transparent;
+  color: white;
+}
+
+.input:focus {
+  color: white;
 }
