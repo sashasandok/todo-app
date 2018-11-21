@@ -4,7 +4,7 @@ import React from 'react'
 // styles
 import './Todo.css'
 
-function Todo({ todo, id, index, completeTodo, removeTodo }) {
+function Todo({ todo, index, completeTodo, removeTodo }) {
   return (
     <div
       className="todo"

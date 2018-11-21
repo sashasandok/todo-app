@@ -6,7 +6,11 @@
   border: 1px solid #e3e3e3;
   text-indent: 23px;
   font-size: 23px;
-  background-color: transparent;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(172, 148, 108, 0.7),
+    rgba(15, 12, 21, 0.7)
+  );
   color: white;
 }
 
